@@ -13,7 +13,11 @@ npm i react-chained-modals
 ### Usage
 Import:
 
-`import ChainedModal from "react-chained-modals";`
+```javascript
+import ChainedModal from "react-chained-modals";
+import "react-chained-modals/src/modal.css"
+import "animate.css"
+```
 
 then place:
 
