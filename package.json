@@ -1,24 +1,16 @@
 {
   "name": "react-chained-modals",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "You can create one popup or few chained modals using this plugin",
   "keywords": ["React", "modal", "popup", "chained modals"],
   "homepage": "https://github.com/AModin/react-chained-modals",
   "main": "build/index.js",
   "peerDependencies": {
-    "react": "^16.6.0"
+    "react": "^16.2.0"
   },
   "dependencies": {
     "animate.css": "latest",
-    "classnames": "2.2.6",
-    "react": "^16.6.0",
-    "react-dom": "16.5.2",
-    "webpack": "^4.2.0"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack --watch",
-    "build": "webpack"
+    "classnames": "2.2.6"
   },
   "author": {
     "name": "Aleksey Modin",

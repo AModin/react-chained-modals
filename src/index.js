@@ -1,9 +1,9 @@
-import React, { Component, Fragment } from "react";
+import React, { PureComponent, Fragment } from "react";
 import classnames from "classnames";
 import ReactDOM from "react-dom";
 import PropTypes from "prop-types";
 
-class ChainedModalComponent extends Component {
+class ChainedModalComponent extends PureComponent {
   constructor(props) {
     super();
     this.container = null;
