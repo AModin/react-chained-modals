@@ -1,7 +1,9 @@
 {
   "name": "react-chained-modals",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "You can create one popup or few chained modals using this plugin",
+  "keywords": ["React", "modal", "popup", "chained modals"],
+  "homepage": "https://github.com/AModin/react-chained-modals",
   "main": "build/index.js",
   "peerDependencies": {
     "react": "^16.6.0"
