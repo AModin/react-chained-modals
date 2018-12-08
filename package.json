@@ -1,0 +1,35 @@
+{
+  "name": "react-chained-modals",
+  "version": "0.0.1",
+  "description": "You can create one popup or few chained modals using this plugin",
+  "main": "build/index.js",
+  "peerDependencies": {
+    "react": "^16.6.0"
+  },
+  "dependencies": {
+    "react": "^16.6.0",
+    "webpack": "^2.6.1",
+    "animate.css": "latest",
+    "react-dom": "16.5.2",
+    "classnames": "2.2.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "author": {
+    "name": "Aleksey Modin",
+    "email": "alekseymodin@gmail.com"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1",
+    "prop-types": "15.6.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
