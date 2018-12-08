@@ -48,7 +48,7 @@ class ChainedModalComponent extends Component {
           )}
         >
           <El
-            closeChainedModal={this.closeModal}
+            closeChainedModal={() => this.props.onRequestClose()}
             className="wrapped-element"
             currentModal={this.state.currentModal}
             totalModals={this.state.totalModals}
