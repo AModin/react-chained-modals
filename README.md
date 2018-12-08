@@ -91,3 +91,4 @@ Just replace your styles with styles from the module
 
 * [Animate.css](https://daneden.github.io/animate.css/ ) - Animations for transition between modals
 * [React portals](https://reactjs.org/docs/portals.html) - Used for display modal
+* [Classnames](https://github.com/JedWatson/classnames) - For combining few classNames
