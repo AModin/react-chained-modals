@@ -1,7 +1,7 @@
 # React chained modals [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=React%20chained%20modals%20&url=https://github.com/AModin/react-chained-modals&hashtags=react,modal,animate.css,portals)
 ![React version](https://img.shields.io/badge/react-v16.2.0-%2361dafb.svg)
 
-Allow you to add few chained modals or just single popup in your react app. Easy to use and customizing
+Allow you to add few chained modals or just single popup in your react app. Easy to use and customizing. [Check the demo page](https://amodin.github.io/react-chained-modals-demo/)
 ## Getting Started
 ### Installation
 
