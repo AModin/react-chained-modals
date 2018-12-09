@@ -49,13 +49,13 @@ then place:
 
 | Name          | Type          | Description  | Default|
 | ------------- |:-------------:| ----------| ------- |
-| animationNext | string        | Transition animation on `showNext` method call. View full list here [Animate.css](https://daneden.github.io/animate.css/ )|"fadeInRight"
-| animationPrev | string        | Transition animation on `showPrev` method call. View full list here [Animate.css](https://daneden.github.io/animate.css/ )|"fadeInLeft"
+| animationNext | string        | Transition animation on `showNext` method call. View full list here [Animate.css](https://daneden.github.io/animate.css/ ). This method will call also on popup first view.| none
+| animationPrev | string        | Transition animation on `showPrev` method call. View full list here [Animate.css](https://daneden.github.io/animate.css/ )| none
 | visible       | bool          | Is modals visible. Options: true, false | false
 | onRequestClose | function     | Method that should set `visible` to false 
 | closeOnBackground | bool | Should popup close on click at background. Options: true, false | false
 | animationSpeed | string | Define it if you want to change the animation speed. Options: "slow", "slower", "fast", "faster" | none |
-| elements | array | Each item in the array should have the `component` that will show and optional parameter `props` which put all 'props' you want to use in this component
+| elements | array | Each item in the array should have the `component` that will show and optional parameter `props` which put all 'props' you want to use in this component | none
 
 ### Methods and options for each modal
 
