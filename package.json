@@ -1,6 +1,6 @@
 {
   "name": "react-chained-modals",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "You can create one popup or few chained modals using this plugin",
   "keywords": ["React", "modal", "popup", "chained modals"],
   "homepage": "https://github.com/AModin/react-chained-modals",

@@ -12,16 +12,16 @@ class ChainedModalComponent extends PureComponent {
       visible: props.visible || true,
       currentModal: 0,
       totalModals: elements.length || 0,
-      animationNext: props.animationNext || "fadeInRight",
-      animationPrev: props.animationPrev || "fadeInLeft",
-      animation: props.animationNext || "fadeInRight"
+      animationNext: props.animationNext || "",
+      animationPrev: props.animationPrev || "",
+      animation: props.animationNext || ""
     };
   }
 
   showNext() {
     if (this.state.currentModal < this.state.totalModals - 1) {
       this.setState({
-        animation: this.props.animationNext || "fadeInRight",
+        animation: this.props.animationNext || "",
         currentModal: this.state.currentModal + 1
       });
     }
@@ -30,7 +30,7 @@ class ChainedModalComponent extends PureComponent {
   showPrev() {
     if (this.state.currentModal > 0) {
       this.setState({
-        animation: this.props.animationPrev || "fadeInLeft",
+        animation: this.props.animationPrev || "",
         currentModal: this.state.currentModal - 1
       });
     }
