@@ -2,6 +2,9 @@
 ![React version](https://img.shields.io/badge/react-v16.2.0-%2361dafb.svg)
 
 Allow you to add few chained modals or just single popup in your react app. Easy to use and customizing. [Check the demo page](https://amodin.github.io/react-chained-modals-demo/)
+
+![screencast-amodin github io-2018 12 09-21-00-37](https://user-images.githubusercontent.com/15379788/49700916-308eed80-fbf6-11e8-8139-5465910de808.gif)
+
 ## Getting Started
 ### Installation
 
